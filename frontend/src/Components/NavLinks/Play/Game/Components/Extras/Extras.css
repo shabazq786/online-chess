@@ -1,0 +1,39 @@
+.turn-header {
+  position:relative;
+  width:137px;
+  top: 15px;
+  font-size:20px;
+}
+.content-container {
+  position: relative;
+  width:380px;
+  top:30px;
+  height:439px;
+  z-index: -1;
+}
+
+.timer-top, .timer-bottom, .name-top, .name-bottom{
+  position:relative;
+  width:100%;
+}
+
+.name-top, .name-bottom {
+  left: 1px;
+  top:1px;
+}
+.name-bottom  {
+  top:398px;
+}
+
+.timer-top, .timer-bottom {
+  top:-54px;
+  left:89%;
+  width:39px;
+}
+
+.timer-bottom {
+  top:379px;
+}
+
+
+

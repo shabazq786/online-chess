@@ -1,0 +1,21 @@
+.create-post-title, .post-titlebox, .post-description, .post-descriptionbox {
+  margin-left:10px;
+  margin-right:10px;
+}
+.create-post-title {
+  margin-top: 10px;
+}
+.post-titlebox {
+  margin-top:5px;
+}
+.post-description {
+  margin-top:25px;
+}
+.post-descriptionbox {
+  margin-top:10px;
+}
+.post-submit-btn {
+  margin-top: 25px;
+  margin-left:10px;
+}
+

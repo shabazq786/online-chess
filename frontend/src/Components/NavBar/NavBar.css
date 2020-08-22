@@ -1,0 +1,38 @@
+.nav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0; /* required */
+  background-image: url('../../images/backgroundimage.jpeg');
+  z-index: 9999;
+}
+
+.nav-tabs {
+  position: relative;
+  left:2%;
+  height:45px;
+  width:98%;
+}
+
+.nav-right {
+  position:absolute;
+  width:50%;
+  left:50%;
+  height:auto;
+  display:flex;
+  flex-direction: row-reverse;
+  margin-top:8px;
+}
+
+.nav-search {
+  position:relative;
+  width:100%;
+  max-width:170px;
+  color:black;
+}
+
+.nav-avatar {
+  margin-left:18px;
+}
+.nav-logbtn {
+  overflow-x:hidden;
+}

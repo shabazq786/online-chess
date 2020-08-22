@@ -1,0 +1,22 @@
+li {
+  color:red;
+  list-style-type:none;
+}
+.submit-btn {
+  display:flex;
+  flex-direction: row;
+}
+
+.submit-btn-child-1, .submit-btn-child-2, .submit-btn-child-3 {
+  margin: 2px;
+}
+.submit-btn-child-2, .submit-btn-child-3 {
+  margin: 2px;
+  position:relative;
+  top:15px;
+}
+
+.submit-btn-child-3 {
+  color: #6666FF;
+  cursor: pointer;
+}

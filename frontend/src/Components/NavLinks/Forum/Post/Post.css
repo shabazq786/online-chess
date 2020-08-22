@@ -1,0 +1,103 @@
+.back-btn {
+  position:relative;
+  width:100%;
+  margin-top:20px;
+  margin-bottom:20px;
+  left:3%;
+}
+.post-container {
+  width:95%;
+  height:auto;
+  left:2.5%;
+}
+
+.post-card-container {
+  position:relative;
+  width:100%;
+  height:auto;
+  min-height:500px;
+  background-color:white;
+}
+.post-card-container >* {
+  margin:20px;
+  position:relative;
+}
+.Form-child >* {
+  width:100%;
+  margin:20px;
+  margin-left:0px;
+  margin-right:0px;
+  position:relative;
+}
+
+.line {
+  position:relative;
+  display:flex;
+  justify-content: left;
+  margin-bottom:15px;
+  margin-top:15px;
+  margin-left:0px;
+  border-bottom:1px solid rgba(70, 70, 61, 0.219);
+  overflow:hidden;
+}
+.pagination-top-post, .pagination-btm-post {
+  position:relative;
+  display:flex;
+  justify-content: center;
+}
+.pagination-top-post {
+  margin-top:30px;
+}
+
+.pagination-btm-post {
+  margin-top:20px;
+  padding-bottom:20px;
+}
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top:10px;
+}
+
+.comment-header {
+  width:100%;
+}
+
+
+.modify-btn, .modify-btn-comment {
+  position:relative;
+  display:flex;
+  flex-direction: row-reverse;
+  width:100%;
+}
+.modify-btn >*, .modify-btn-comment >* {
+  margin-left:10px;
+}
+
+.modify-btn-comment {
+  margin-top:-36px;
+}
+.reply-div{
+  width:100%;
+}
+.reply-div >* {
+  margin-right:10px;
+}
+
+.btn-comment {
+  height:30px;
+  width:50px;
+}
+.post-posted-by {
+  display:flex;
+  direction: row;
+}
+.post-posted-by >* {
+  margin-left:6px;
+}
+
+#divider {
+  color:"black";
+}

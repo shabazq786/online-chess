@@ -1,0 +1,38 @@
+.Form {
+  display:block;
+  position:relative;
+  border: 1px solid black;
+  width: 250px;
+  top:30px;
+  margin:auto;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.submit-button {
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+  top: -8px;
+}
+
+h3 {
+  text-align:center;
+  padding-top:2%;
+}
+
+.label {
+  position:relative;
+  left:0%;
+}
+
+.chess-img {
+  width:170px;
+  height:170px;
+  margin:auto;
+  padding:15px;
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+  border-radius:50%;
+}

@@ -1,0 +1,42 @@
+.board {
+  position:relative;
+  width:376px;
+  top:-378px;
+  height:376px;
+  border:1px solid black;
+  z-Index:2;
+}
+.board-row  {
+  position:relative;
+  display: flex;
+  flex-direction:row;
+}
+  
+.board-square {
+  border: 1px solid black;
+  background-color:#769656;
+  height: 47px;
+  width: 47px;
+}
+
+.board-piece {
+  position: absolute; 
+  z-Index: 5;
+}
+
+.board-subcol, .board-subrow {
+  float: left;
+  position: relative;
+  color: rgb(54, 35, 9);
+  height: 1px;
+  font-size: 10px;
+}
+  
+.board-subrow  {
+  top: 30px;
+  float: right;
+  right: 1px;
+}
+  
+
+  

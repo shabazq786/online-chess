@@ -1,0 +1,13 @@
+.modal-container {
+  margin:auto;
+}
+
+.spinner {
+  position:relative;
+  left:38%;
+}
+
+.loading-icon {
+  position: relative;
+  top:5px;
+}

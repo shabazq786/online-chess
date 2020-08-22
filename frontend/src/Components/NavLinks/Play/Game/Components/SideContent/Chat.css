@@ -1,0 +1,28 @@
+.chat-container {
+  width:100%;
+  height:auto;
+  margin-top:50px;
+}
+
+.chat-container >* {
+  position: relative;
+  margin-top:10px;
+}
+.chat-box {
+  height:255px;
+  border-top: 1px solid black;
+  overflow-y: scroll;
+}
+
+.chat-box >* {
+  width:100%;
+  overflow-wrap: break-word;
+}
+
+.chat-header {
+  text-align: center
+}
+.send-btn {
+  width:45px;
+  float:right;
+}

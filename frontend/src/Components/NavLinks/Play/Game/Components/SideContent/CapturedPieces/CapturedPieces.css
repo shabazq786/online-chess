@@ -1,0 +1,38 @@
+.black-container, .white-container {
+  display: flex;
+  flex-direction: wrap;
+  height: 50px;
+  width: Min(280px,100%);
+  padding-bottom: 5px;
+  padding-top: 10px;
+  border: 1px solid black;
+  margin:auto;
+  margin-top:5px;
+  margin-bottom:5px;
+  align-content: left;
+}
+
+.count {
+  margin: auto;
+  margin-top:15px;
+  width: Min(280px,100%);
+}
+
+.captured-pieces {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+  padding-left:8px;
+  bottom:50%;
+  min-width: 10px;
+}
+
+.captured-piece {
+  margin:-10px;
+}
+
+
+
+
+
+
